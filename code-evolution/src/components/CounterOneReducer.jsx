@@ -17,6 +17,7 @@ const reducer = (state, action) => {
 
 const CounterOneReducer = () => {
 	const [count, dispatch] = useReducer(reducer, initialState)
+	console.log('Render')
 
 	return (
 		<div>

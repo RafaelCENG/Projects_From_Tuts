@@ -31,7 +31,7 @@ import UserForm from './components/UserForm'
 function App() {
 	return (
 		<div>
-			<UserForm />
+			<CounterOneReducer />
 		</div>
 	)
 }
