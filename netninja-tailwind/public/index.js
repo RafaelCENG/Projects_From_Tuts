@@ -8,3 +8,5 @@ burger.addEventListener('click', () => {
 		menu.classList.add('hidden')
 	}
 })
+
+//
