@@ -1,8 +1,12 @@
 import './App.css'
+import Private from './components/auth/Private'
+import Profile from './components/auth/Profile'
 import Button from './components/Button'
 import Container from './components/Container'
 import { Box } from './components/context/Box'
 import { ThemeContextProvider } from './components/context/ThemeContext'
+import User from './components/context/User'
+import { UserContextProvider } from './components/context/UserContext'
 import Greet from './components/Greet'
 import Heading from './components/Heading'
 import Input from './components/Input'
@@ -48,9 +52,13 @@ function App() {
 			/>
 			<Input value="" handleChange={(event) => console.log(event)} />
 			<Container styles={{ border: '1px solid black', padding: '1rem' }} /> */}
-			<ThemeContextProvider>
+			{/* <ThemeContextProvider>
 				<Box />
-			</ThemeContextProvider>
+			</ThemeContextProvider> */}
+			{/* <UserContextProvider>
+				<User />
+			</UserContextProvider> */}
+			{/* <Private isLoggedIn={true} component={Profile} /> */}
 		</div>
 	)
 }
