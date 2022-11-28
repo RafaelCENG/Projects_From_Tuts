@@ -28,7 +28,7 @@ function App() {
 			{/* <MuiLayout /> */}
 			{/* <MuiCard /> */}
 			{/* <MuiAccordion /> */}
-			<MuiImageList />
+			{/* <MuiImageList /> */}
 		</div>
 	)
 }
