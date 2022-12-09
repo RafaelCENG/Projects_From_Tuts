@@ -58,7 +58,7 @@ function App() {
 		<div className="App">
 			<ThemeProvider theme={theme}>
 				{/* <MuiTypography/> */}
-				{/* <MuiButton/> */}
+				<MuiButton />
 				{/* <MuiTextField /> */}
 				{/* <MuiSelect /> */}
 				{/* <MuiRadioButton /> */}
@@ -93,7 +93,7 @@ function App() {
 				{/* <MuiTimeline /> */}
 				{/* <MuiTabs /> */}
 				{/* <MuiMasonry /> */}
-				<MuiResponsiveness />
+				{/* <MuiResponsiveness /> */}
 			</ThemeProvider>
 		</div>
 	)
